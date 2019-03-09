@@ -1,3 +1,36 @@
-baseURL = "https://snoonet.games/"
+baseURL = "https://snoonet.games/new"
 languageCode = "en-us"
 title = "Snoonet Games"
+theme = "snoonet-games"
+copyright = "Copyright &copy; {year} Snoonet."
+
+[params]
+logo = "img/snoo.png"
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Updates"
+        url = "#"
+        weight = 2
+    [[menu.main]]
+        name = "Servers"
+        url = "/servers.html"
+        weight = 3
+    [[menu.main]]
+        name = "Games"
+        url = "/../map.html"
+        weight = 4
+    [[menu.main]]
+        name = "Webchat"
+        url = "https://webchat.snoonet.org/#snoonet-games"
+        weight = 5
+    [[menu.main]]
+        name = "Other Links"
+        url = "#"
+        weight = 6
+
+    
