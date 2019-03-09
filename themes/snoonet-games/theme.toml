@@ -5,7 +5,7 @@ name = "Snoonet Games"
 license = "MIT"
 licenselink = "https://github.com/snoonetIRC/snoonet.games/blob/master/themes/LICENSE"
 description = "Snoonet Games Theme"
-homepage = "http://github.com/snoonetIRC/snoonet.games/themes/snoonet.games"
+homepage = "http://github.com/snoonetIRC/snoonet.games"
 tags = []
 features = []
 min_version = "0.41"
@@ -13,6 +13,10 @@ min_version = "0.41"
 [author]
   name = "Andrew Hall"
   homepage = "https://redquasar.xyz"
+
+[author]
+  name = "Snoonet Developers"
+  homepage = "https://snoonet.org"
 
 # If porting an existing theme
 [original]
