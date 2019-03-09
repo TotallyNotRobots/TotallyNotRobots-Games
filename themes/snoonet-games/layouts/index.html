@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "head.html" . }}
+    <body>
+        {{ partial "header-bar.html" . }}
+        
+        <div class="content-wrapper">
+            <content>
+                {{ .Content }}
+            </content>
+            <div class=push></div>
+        </div>
+
+        {{ partial "footer-bar.html" . }}
+    </body>
+</html>

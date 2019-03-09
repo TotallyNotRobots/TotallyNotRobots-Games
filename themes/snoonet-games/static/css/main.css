@@ -1,0 +1,114 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+code {
+    background: #EAEAEA; /*bad*/
+    border-radius: 3px;
+    padding: 0px 2px;
+}
+
+
+body {
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+header {
+    font-size: 1.2em;
+    background: #fafafb;
+    border-bottom: #dedede solid 1px;
+    box-shadow: 0px 1px 2px #eaeaeb;
+    -webkit-box-shadow: 0px 1px 2px #eaeaeb ;
+    max-height: 50px;
+}
+
+header img {
+    max-height: 2.4em;
+    padding: 0.5em 0.5em !important; /* Yes I know it's considered bad practice to use !important. Go away. */
+}
+
+.content-wrapper {
+    width: 100%;
+    min-height: 100%;
+    margin-bottom: -30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 50px;
+}
+
+footer {
+    font-size: 1.2em;
+    background: #fafafb;
+    border-top: #dedede solid 1px;
+    box-shadow: 0px -1px 2px #eaeaeb;
+    -webkit-box-shadow: 0px -1px 2px #eaeaeb;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer, .push {
+    height: 30px;
+}
+
+.vertline {
+    border-right: 1px solid #dedede;
+    width: 10px;
+    height: 100%;
+}
+
+.server-table {
+    border-collapse: separate;
+    border: 1px solid #cfcfcf;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    -webkit-border-radius: 6px;
+    overflow: hidden;
+}
+
+.server-table th {
+    background: #fafafb;
+    color: black;
+    border-bottom: #dedede solid 1px;
+    box-shadow: 0px 1px 2px #eaeaeb;
+    -webkit-box-shadow: 0px 1px 2px #eaeaeb ;
+}
+
+.server-table th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+.server-table tr[game] td{
+    text-align: center;
+    font-weight: bold;
+}
+
+.server-table tr:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+.server-table tr:[game]:hover {
+    background: #d2d2d2;
+
+}
+
+/* pls forgive */
+.blink {
+      animation: blinker 0.5s linear infinite;
+}
+
+@keyframes blinker {
+    0% { opacity: 1; }
+    49% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 0; }
+}
