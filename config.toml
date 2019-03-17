@@ -18,7 +18,7 @@ logo = "img/snoo.png"
         weight = 2
     [[menu.main]]
         name = "Servers"
-        url = "/servers.html"
+        url = "/servers"
         weight = 3
     [[menu.main]]
         name = "Maps"
