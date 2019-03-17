@@ -1,0 +1,8 @@
+<tr>
+    <td>{{ .Get "name" }}</td>
+    <td>{{ .Get "version" }}</td>
+    <td>{{ .Get "address" }}</td>
+    <td>{{ .Get "port" }}</td>
+    <td>{{ .Get "access" }}</td>
+    <td>{{ with .Get "notes"}}{{ . }}{{ end }}</td>
+</tr>
