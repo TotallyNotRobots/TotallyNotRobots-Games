@@ -101,6 +101,42 @@ footer, .push {
 
 }
 
+.status-online {
+    background: #00ff00;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.status-offline {
+    background: #ff0000;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.access-public::before {
+    content: "🔓";
+    font-size: larger;
+}
+
+.access-private::before {
+    content: "🔒";
+    font-size: larger;
+}
+
+.access-password::before {
+    content: "🔐";
+    font-size: larger;
+}
+
+.access-whitelist::before {
+    content: "🔏";
+    font-size: larger;
+}
+
 /* pls forgive */
 .blink {
       animation: blinker 0.5s linear infinite;

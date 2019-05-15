@@ -1,8 +1,9 @@
 <tr>
+    <td style="line-height: 0; text-align: center"><div class=status-{{ .Get "status"}}></div></td>
     <td>{{ .Get "name" }}</td>
     <td>{{ .Get "version" }}</td>
     <td>{{ .Get "address" }}</td>
     <td>{{ .Get "port" }}</td>
-    <td>{{ .Get "access" }}</td>
+    <td class='access-{{ .Get "access" }}'>{{ .Get "access" | title }}</td>
     <td>{{ with .Get "notes"}}{{ . }}{{ end }}</td>
 </tr>
