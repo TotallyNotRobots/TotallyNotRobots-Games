@@ -1,4 +1,4 @@
-baseURL = "https://snoonet.games/new"
+baseURL = "https://snoonet.games/"
 languageCode = "en-us"
 title = "Snoonet Games"
 theme = "snoonet-games"
