@@ -1,11 +1,11 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Snoonet Games"
+name = "TNR Games"
 license = "MIT"
-licenselink = "https://github.com/snoonetIRC/snoonet.games/blob/master/themes/LICENSE"
-description = "Snoonet Games Theme"
-homepage = "http://github.com/snoonetIRC/snoonet.games"
+licenselink = "https://github.com/TotallyNotRobots/tnr.games/blob/master/themes/LICENSE"
+description = "TNR Games Theme"
+homepage = "http://github.com/TotallyNotRobots/tnr.games"
 tags = []
 features = []
 min_version = "0.41"
@@ -15,8 +15,7 @@ min_version = "0.41"
   homepage = "https://redquasar.xyz"
 
 [author]
-  name = "Snoonet Developers"
-  homepage = "https://snoonet.org"
+  name = "TNR Developers"
 
 # If porting an existing theme
 [original]

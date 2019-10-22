@@ -1,11 +1,11 @@
-baseURL = "https://snoonet.games/"
+BaseURL = "https://tnr.games/"
 languageCode = "en-us"
-title = "Snoonet Games"
-theme = "snoonet-games"
-copyright = "Copyright &copy; {year} Snoonet."
+title = "TNR Games"
+theme = "tnr.games"
+copyright = "Copyright &copy; {year} TotallyNotRobots."
 
 [params]
-logo = "img/snoo.png"
+logo = ""
 
 [menu]
     [[menu.main]]
@@ -26,7 +26,7 @@ logo = "img/snoo.png"
         weight = 4
     [[menu.main]]
         name = "Webchat"
-        url = "https://webchat.snoonet.org/#snoonet-games"
+        url = "https://webchat.snoonet.org/#totallynogames"
         weight = 5
     [[menu.main]]
         name = "Other Links"
