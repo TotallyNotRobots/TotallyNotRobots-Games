@@ -1,4 +1,2 @@
-# Snoonet Games
-Static web files for [Snoonet Games](https://snoonet.games).
-
-Snoonet Games is a collection of games servers for the Snoonet IRC network.
+# TotallyNotRobots Games
+Static web files for [TotallyNotRobots Games](#).
